@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0",
-    "start": "serve examples -l $PORT"
+    "start": "serve -l $PORT"
   },
   "dependencies": {
     "serve": "^14.2.4"
