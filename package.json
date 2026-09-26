@@ -12,6 +12,10 @@
   ],
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0"
+    "start": "serve examples -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
   },
   "repository": {
     "type": "git",
